@@ -2,7 +2,7 @@
 ### A Complete Reference to the Swift Programming Language in an app, Which is also Written in Swift.
 
 ## Screenshots
-![](http://i.imgur.com/SN44hKr.png)
+![image](http://i.imgur.com/SN44hKr.png)
 
 ## Requirements
 * Xcode 6.3 or higher
@@ -11,29 +11,7 @@
 ## Installation
 
 ### Manual Install
-All you need is import `ENSideMenu.swift` to your project folder.
-
-## Usage Example
-1. Create a root UINavigationController subclassing from ENSideMenuNavigationController
-2. Create a UIViewController for your side menu
-3. Initilize the menu view with a source view and menu view controller:
-  
-  ```swift
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    sideMenu = ENSideMenu(sourceView: self.view, menuViewController: MyMenuViewController(), menuPosition:.Left)
-    // show the navigation bar over the side menu view
-    view.bringSubviewToFront(navigationBar)
-  }
-  ```
-  
-4. To change content view controller implement next code in your menu view controller:
-
-  ```swift
-  sideMenuController()?.setContentViewController(destViewController)
-  ```
-
-5. Check example project for more explanation
+All you need is download the project or clone it to Xcode.
 
 ## License
 
